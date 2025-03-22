@@ -711,6 +711,10 @@ video {
   gap: 10px;
 }
 
+.gap-3 {
+  gap: 0.75rem;
+}
+
 .gap-y-\[15px\] {
   row-gap: 15px;
 }
@@ -793,6 +797,10 @@ video {
   padding-left: 50px;
 }
 
+.pt-\[30px\] {
+  padding-top: 30px;
+}
+
 .text-\[17px\] {
   font-size: 17px;
 }
@@ -853,6 +861,22 @@ video {
 @media (min-width: 768px) {
   .md\:absolute {
     position: absolute;
+  }
+
+  .md\:order-1 {
+    order: 1;
+  }
+
+  .md\:order-2 {
+    order: 2;
+  }
+
+  .md\:order-3 {
+    order: 3;
+  }
+
+  .md\:order-4 {
+    order: 4;
   }
 
   .md\:mx-\[auto\] {
