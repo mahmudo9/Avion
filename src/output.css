@@ -562,12 +562,12 @@ video {
   right: 9rem;
 }
 
-.order-4 {
-  order: 4;
-}
-
 .order-3 {
   order: 3;
+}
+
+.order-4 {
+  order: 4;
 }
 
 .mx-\[auto\] {
@@ -626,8 +626,16 @@ video {
   margin-left: 20px;
 }
 
+.ml-\[30px\] {
+  margin-left: 30px;
+}
+
 .mr-\[15px\] {
   margin-right: 15px;
+}
+
+.mt-\[100px\] {
+  margin-top: 100px;
 }
 
 .mt-\[12px\] {
@@ -656,22 +664,6 @@ video {
 
 .mt-\[70px\] {
   margin-top: 70px;
-}
-
-.mt-\[100px\] {
-  margin-top: 100px;
-}
-
-.mt-\[\] {
-  margin-top: ;
-}
-
-.mb-\[\] {
-  margin-bottom: ;
-}
-
-.mt-\[40px\] {
-  margin-top: 40px;
 }
 
 .flex {
@@ -865,6 +857,10 @@ video {
   font-size: 50px;
 }
 
+.text-\[0px\] {
+  font-size: 0px;
+}
+
 .text-\[\#22202E\] {
   --tw-text-opacity: 1;
   color: rgb(34 32 46 / var(--tw-text-opacity, 1));
@@ -893,14 +889,6 @@ video {
 .text-\[white\] {
   --tw-text-opacity: 1;
   color: rgb(255 255 255 / var(--tw-text-opacity, 1));
-}
-
-.text-\[\] {
-  color: ;
-}
-
-.text-\[px\] {
-  color: px;
 }
 
 @media (min-width: 768px) {
@@ -947,52 +935,16 @@ video {
     margin-left: 450px;
   }
 
-  .md\:ml-\[570px\] {
-    margin-left: 570px;
-  }
-
-  .md\:ml-\[\] {
-    margin-left: ;
+  .md\:ml-\[490px\] {
+    margin-left: 490px;
   }
 
   .md\:ml-\[500px\] {
     margin-left: 500px;
   }
 
-  .md\:ml-\[1000px\] {
-    margin-left: 1000px;
-  }
-
-  .md\:ml-\[100px\] {
-    margin-left: 100px;
-  }
-
-  .md\:ml-\[50px\] {
-    margin-left: 50px;
-  }
-
-  .md\:ml-\[470px\] {
-    margin-left: 470px;
-  }
-
-  .md\:ml-\[480px\] {
-    margin-left: 480px;
-  }
-
-  .md\:ml-\[490px\] {
-    margin-left: 490px;
-  }
-
-  .md\:ml-\[495px\] {
-    margin-left: 495px;
-  }
-
-  .md\:ml-\[350px\] {
-    margin-left: 350px;
-  }
-
-  .md\:ml-\[300px\] {
-    margin-left: 300px;
+  .md\:ml-\[570px\] {
+    margin-left: 570px;
   }
 
   .md\:block {
@@ -1055,12 +1007,16 @@ video {
     width: 90%;
   }
 
-  .md\:w-\[\] {
-    width: ;
+  .md\:w-\[23\%\] {
+    width: 23%;
   }
 
-  .md\:w-\[40px\] {
-    width: 40px;
+  .md\:w-\[25\%\] {
+    width: 25%;
+  }
+
+  .md\:w-\[3\%\] {
+    width: 3%;
   }
 
   .md\:flex-row {
@@ -1086,9 +1042,5 @@ video {
 
   .md\:text-center {
     text-align: center;
-  }
-
-  .md\:text-right {
-    text-align: right;
   }
 }
